@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sött&Elegant - order</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type= "text/css" href="style.css">
+</head>
+<body class="bodystyle">
+    <h1>Sött & Elegant</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reserve-table.html">Reserve a Table</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="new-cake.html">Cakes</a></li>
+        <li><a href="new-category.html">Cake Categories</a></li>
+    </ul>
+	<form>
+		<fieldset>
+			<legend>Order a cake:</legend>
+			<div><label>
+			Number of layers:
+			<input type="number" name="Layers No.">
+			</label>
+			
+
+			<label>
+			Pieces:
+			<input type="number" name="Pieces">
+			</label> <br><br>
+			<label id="totalcost">Total Cost: 1000 SEK</label>
+			<br>
+		</div>
+		<br>
+		<div>
+			<label>
+			Date:
+			<input type="date" name="date">
+			</label>
+
+			<label>
+			Time:
+			<input type="time" name="time">
+			</label>
+			<br>
+		</div>
+		<br>
+		<div>
+			<label>Type:</label>
+			<input type="radio" name="cake-type" value="Vanilla"><label>Vanilla</label>
+			<input type="radio" name="cake-type" value="Chocolate"><label>Chocolate</label>
+			<input type="radio" name="cake-type" value="Coffee"><label>Caffee</label>
+			<br>
+		</div>
+		<br>
+		<div>
+			<input type="checkbox" name="image-cake" value="image-cake"><label>Print my image top of the cake.</label><br><br>
+			<label>   Photo:</label><input type="text" name="myphoto" size="30" maxlength="1000"><input type="file" size="30">
+		</div><br>	
+		<div><input type="checkbox" name="delivery" value="delivery"><label>Delivery</label></div>
+		</fieldset>
+		<fieldset id="leftside-padding">
+			<legend>Personal information:</legend>
+			<div><label>Name: <input type="text" id="name" name="name" size="30"></label>
+			<label>Id Number: <input type="number" id="idnumber" name="idnumber"></label>
+			</div>
+			<br>
+			<div><label>Email: <input type="email" name="email" size="30" maxlength="100"></label>
+			<label>Phone: <input type="number" name="phone"></label></div>
+			<br>		
+			<div><label>Address:<input type="text" name="address" size="62" maxlength="2"></label></div>
+			<br>		
+		</fieldset >
+
+        <br>		
+		<button type="submit" formaction="confirmation.html">  OK  </button>
+		<input type="button" value=" Cancel ">
+		<br>
+
+	</form>
+
+
+    <br>
+<footer class="footerstyle">
+    <br>
+    <p><a href="contact.html">Contact Us</a></p>
+    <p><a href="https://www.instagram.com/stockholm.cakes/">Instagram: @stockholm.cakes</a></p>
+    <p><a href="mailto:shabboo.zamanian@gmail.com">E-mail:shabboo.zamanian@gmail.com </a></p>
+    <br>
+</footer>
+</body>
+</html>
+
